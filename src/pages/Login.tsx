@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import SocialLogin from './socialLogin';
+import SocialLogin from './SocialLogin';
 
 
 function Copyright(props: any) {
@@ -114,8 +114,7 @@ export default function SignIn() {
             </Grid>
           </Grid>
 
-           <SocialLogin ></SocialLogin>
-
+          <SocialLogin />
         </Box>
       </Box>
       <Copyright sx={{ mt: 8, mb: 4 }} />
